@@ -516,4 +516,12 @@ class Msf::Module::Platform
     Rank = 100
     Alias = "nodejs"
   end
+  
+  #
+  # IBM z/OS Mainframe
+  #
+  class ZOS < Msf::Module::Platform
+    Rank = 100
+    Alias = "zos"
+  end
 end

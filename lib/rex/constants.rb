@@ -86,6 +86,7 @@ ARCH_RUBY   = 'ruby'
 ARCH_DALVIK = 'dalvik'
 ARCH_PYTHON = 'python'
 ARCH_NODEJS = 'nodejs'
+ARCH_ZARCH  = 'zarch'
 ARCH_TYPES  =
   [
     ARCH_X86,
@@ -107,7 +108,8 @@ ARCH_TYPES  =
     ARCH_RUBY,
     ARCH_DALVIK,
     ARCH_PYTHON,
-    ARCH_NODEJS
+    ARCH_NODEJS,
+    ARCH_ZARCH
   ]
 
 ARCH_ALL = ARCH_TYPES

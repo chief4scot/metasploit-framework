@@ -66,6 +66,7 @@ module OperatingSystems
   NETBSD  = "NetBSD"
   OPENBSD = "OpenBSD"
   VMWARE  = "VMware"
+  ZOS     = "IBM z/OS"
 
   module VmwareVersions
     ESX   = "ESX"
